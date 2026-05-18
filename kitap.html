@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devlet Ana - KitapSkor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="logo">KitapSkor</div>
+        <div class="nav-search">
+            <input type="text" placeholder="Kitap, yazar veya ISBN ara...">
+            <button>Ara</button>
+        </div>
+        <div class="nav-links">
+            <a href="giris.html">Giriş Yap</a>
+            <a href="kayit.html">Üye Ol</a>
+        </div>
+    </nav>
+
+    <!-- KİTAP DETAY -->
+    <div class="kitap-detay">
+
+        <!-- SOL: KAPAK -->
+        <div class="kitap-sol">
+            <img src="https://via.placeholder.com/200x300?text=Kapak" alt="Devlet Ana">
+            <div class="okuma-butonlari">
+                <button class="oku-btn aktif">✓ Okudum</button>
+                <button class="oku-btn">📖 Okuyorum</button>
+                <button class="oku-btn">🔖 Okumak İstiyorum</button>
+            </div>
+        </div>
+
+        <!-- SAĞ: BİLGİLER -->
+        <div class="kitap-sag">
+            <h1>Devlet Ana</h1>
+            <h2>Kemal Tahir</h2>
+
+            <div class="puan-bolumu">
+                <div class="yildizlar">★★★★☆</div>
+                <span>4.2 / 5 · 1,243 puan</span>
+            </div>
+
+            <div class="kitap-bilgi">
+                <p><strong>Yayınevi:</strong> İthaki Yayınları</p>
+                <p><strong>Sayfa:</strong> 704</p>
+                <p><strong>Yıl:</strong> 1967</p>
+                <p><strong>Tür:</strong> Tarihi Roman</p>
+            </div>
+
+            <div class="ozet">
+                <h3>Özet</h3>
+                <p>Devlet Ana, Kemal Tahir'in en önemli romanlarından biridir. Osmanlı Devleti'nin kuruluş dönemini anlatan bu eser, Anadolu insanının yaşamını ve mücadelesini gözler önüne serer.</p>
+            </div>
+
+            <!-- YORUM YAZMA -->
+            <div class="yorum-yaz">
+                <h3>İnceleni Yaz</h3>
+                <textarea placeholder="Bu kitap hakkında ne düşünüyorsunuz?"></textarea>
+                <button class="gonder-btn">Gönder</button>
+            </div>
+
+            <!-- YORUMLAR -->
+            <div class="yorumlar">
+                <h3>İncelemeler</h3>
+
+                <div class="yorum-kart">
+                    <div class="yorum-ust">
+                        <strong>Ahmet Y.</strong>
+                        <div class="yildizlar">★★★★★</div>
+                    </div>
+                    <p>Türk edebiyatının şaheseri. Kemal Tahir bu romanda tarihi gerçeklerle kurguyu mükemmel bir şekilde harmanlıyor.</p>
+                </div>
+
+                <div class="yorum-kart">
+                    <div class="yorum-ust">
+                        <strong>Fatma K.</strong>
+                        <div class="yildizlar">★★★★☆</div>
+                    </div>
+                    <p>Uzun ve yoğun bir roman ama kesinlikle okunmaya değer. Osmanlı'nın kuruluşunu bu kadar detaylı anlatan başka bir eser yok.</p>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
